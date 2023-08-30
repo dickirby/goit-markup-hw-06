@@ -21,7 +21,7 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container header-container">
+      <div class="header-container">
         <!-- LOGO -->
         <nav class="header-nav">
           <a href="./index.html" class="link link-logo"
@@ -544,7 +544,7 @@
         </div>
       </div>
     </footer>
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-btn-icon" width="8" height="8">
@@ -641,35 +641,88 @@
           <button class="modal-form-button" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
 
     <!-- Mobile -->
     <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-            clip-rule="evenodd"
-          ></path>
+      <button class="menu-toggle js-close-menu close-burger">
+        <svg class="burger-btn-icon" width="8" height="8">
+          <use href="./images/icons.svg#close"></use>
         </svg>
       </button>
 
       <ul class="mobile-menu">
-        <li><a href="" class="link">About</a></li>
-        <li><a href="" class="link">Products</a></li>
+        <li><a href="./index.html" class="link">Studio</a></li>
+        <li>
+          <a href="/portfolio.html" class="link">Portfolio</a>
+        </li>
         <li><a href="" class="link">Contacts</a></li>
-        <li><a href="" class="link">Career</a></li>
+      </ul>
+
+      <ul class="list list-contacts-burger">
+        <li>
+          <a href="tel:+110001111111" class="link contacts-item contacts-number"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li>
+          <a
+            href="mailto:info@devstudio.com"
+            class="link contacts-item contacts-mail"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="burger-list">
+        <li class="footer-list-item">
+          <a
+            class="burger-list-item-link"
+            href="https://instagram.com"
+            target="_blank"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-list-item">
+          <a
+            class="burger-list-item-link"
+            href="https://twitter.com"
+            target="_blank"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-list-item">
+          <a
+            class="burger-list-item-link"
+            href="https://facebook.com"
+            target="_blank"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-list-item">
+          <a
+            class="burger-list-item-link"
+            href="https://linkedin.com"
+            target="_blank"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
       </ul>
     </div>
 
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
 
     <script
       defer
