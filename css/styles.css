@@ -266,11 +266,6 @@ button {
         padding-top: 96px ;
     }
 
-    .abilities-container-main {
-       
-   
-    }
-
     .abilities-container {
         display: none;
         align-items: center;
@@ -285,7 +280,7 @@ button {
     }
 
     .abilities-list-item {
-        padding-bottom: 72px;
+        margin-bottom: 72px;
         width: 100%;
     }
 
@@ -772,14 +767,10 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    /* Body Medium */
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     }
     .modal-form {
         margin-bottom: 8px;
@@ -1424,11 +1415,9 @@ nav {
             background-color: var(--iris);
             color: var(--cloud, #F4F4FD);
             transform: translateY(100%);
-            font-family: Roboto;
             font-size: 16px;
-            font-style: normal;
             font-weight: 400;
-            line-height: 1.5; /* 150% */
+            line-height: 1.5; 
             letter-spacing: 0.02em;
             transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
@@ -1518,6 +1507,8 @@ nav {
         left: 0;
         width: 100vw;
         height: 100vh;
+        padding-bottom: 40px;
+        padding-right: 33px;
         padding-top: 80px;
         padding-left: 40px;
         background-color: var(--white);
@@ -1547,19 +1538,20 @@ nav {
       
       .mobile-menu .link {
         display: block;
-        padding-bottom: 40px;
-        font-family: Roboto;
+    
         font-size: 36px;
-        font-style: normal;
         font-weight: 700;
-        line-height: 40px; /* 111.111% */
-        letter-spacing: 0.72px;
+        line-height: 1.11; 
+        letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--navyblue);
         text-decoration: none;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
       }
     
+      .mobile-menu-item {
+        margin-bottom: 40px;
+      }
       .mobile-menu .link:hover, .mobile-menu .link:focus {
         color: var(--ocean);
       }
@@ -1568,17 +1560,16 @@ nav {
         display: flex;
         list-style: none;
         column-gap: 56px;
-        padding-bottom: 40px;
+       
       }
 
-      .contacts-item {
+      .contacts-item:nth-child(1) {
         
         padding-bottom: 24px;
       }
 
       .contacts-number {
         color: var(--iris);
-        font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
@@ -1592,16 +1583,18 @@ nav {
 
       .contacts-mail {
         color: var(--slate);
-        font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        padding-bottom: 48px;
       }
 
       .contacts-mail:hover,   .contacts-mail:focus {
         color: var(--iris);
+      }
+
+      .list-contacts-burger {
+        margin-bottom: 48px;
       }
 
       .burger-list-item-link {
