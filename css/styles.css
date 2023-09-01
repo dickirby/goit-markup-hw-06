@@ -722,7 +722,8 @@ button {
         opacity: 0;
     }
     .modal {
-        width: 392px;
+        width: calc(100% - 36px);
+        max-width: 408px;
         min-height: 584px;
         position: absolute;
         top: 50%;
@@ -1111,7 +1112,7 @@ screen and (min-resolution: 2dppx)  {
    @media only screen and (min-width: 1440px) {
 
     .container {
-        padding: 0 156px;
+        padding: 0 15px;
     }
 
     /* Header */
@@ -1176,7 +1177,7 @@ nav {
          /* Abilities */
 
         .abilities-list {
-            flex-wrap: nowrap;
+           
             justify-content: center;
         }
         .abilities-container {
@@ -1221,14 +1222,14 @@ nav {
         .our-team-list{
          
             flex-basis: calc((100% - 72px) / 4);
-            flex-wrap: nowrap;
+           
         }
         
         /* Customers */
         
         
         .customers-list {
-            flex-wrap: nowrap;
+            
             gap: 24px;
 
         }
@@ -1333,7 +1334,7 @@ nav {
             align-items: baseline;
             margin-left: auto;
             margin-right: auto;
-            flex-wrap: nowrap;
+          
             column-gap: 0;
         }
         .modal {
@@ -1449,7 +1450,7 @@ nav {
         
         .photo-list {
             display: flex;
-            flex-wrap: nowrap;
+           
             gap: 24px;
         }
      }
