@@ -177,12 +177,8 @@ x
 
 
 .portfolio-button {
-    background-color: var(--cloud);
-    color: var(--iris);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    font-weight: 500;
+
+
     padding: 12px 24px;
 justify-content: center;
 align-items: center;
